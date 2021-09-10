@@ -23,15 +23,22 @@ h2 {
 
 
 }
-
+/* git add .
+git commit -m "add new chapter"
+git push origin */
 .text {
     font-weight: 900;
     text-transform: uppercase;
 
 }
 
+.text2 {
+    font-style: italic;
+
+}
+
 .chapter {
-    color: red;
+    color: red; 
 
 }
 
