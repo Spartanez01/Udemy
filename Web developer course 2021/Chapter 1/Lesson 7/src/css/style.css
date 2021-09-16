@@ -44,6 +44,7 @@ git push origin */
 }
 
 .box {
+    position: absolute;
     display: inline-block;
     width: 300px;
     height: 300px;
@@ -54,6 +55,7 @@ git push origin */
     border-color: black; */
     border: 3px solid black;
     margin: 20px;
+    z-index: 5;/* позиционирование элементов по оси z */
 
     
 }
@@ -88,7 +90,9 @@ img {
 
  .red {
      position: absolute;
+     left: 100px;
      background-color: red;
+     z-index: -1;
  }
 
  .example {
